@@ -8,7 +8,7 @@ export default function PlacaMae() {
       
       <View>
       <Image
-            style={{resizeMode: 'center'}}
+            style={styles.imagem}
             source={require('../assets/MOBO.jpg')}
           />
       </View>
@@ -31,5 +31,9 @@ const styles = StyleSheet.create({
   },
   subTitulo:{
       fontSize:15
+  },
+  imagem: {
+    height: 300,
+    margin: 10
   }
 });
